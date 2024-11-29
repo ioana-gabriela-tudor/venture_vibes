@@ -1,0 +1,134 @@
+/* Basic CSS for the navigation bar */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #fd6500a2;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Basic CSS for the form elements */
+body {
+    font-family: Arial, sans-serif;
+    /* margin: 20px; */
+    background-image: url('https://img.freepik.com/free-photo/top-view-traveling-items-wooden-background_23-2148971050.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    padding-bottom:5px;
+}
+
+h1 {
+    display: inline-flex;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 200px;
+    padding: 5px;
+}
+
+button {
+    padding: 7px 15px;
+    background-color: #0011ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #010fcf;
+}
+
+/* Basic CSS for the report section */
+h2 {
+    margin-top: 30px;
+}
+
+#report,
+#result {
+    padding: 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+}
+
+#result {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#result img {
+    width: 200px;
+    height: 100px;
+}
+
+.motto {
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.media {
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.507);
+    border-radius: 15%;
+}
+
+.social {
+    display: grid;
+    align-items: center;
+    align-content: center;
+}
