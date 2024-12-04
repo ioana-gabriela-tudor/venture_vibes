@@ -210,3 +210,32 @@ button:hover {
     width: 120px;
     font-weight: bold;
 }
+
+#results {
+    height: 500px;
+    width: 100%;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+    color: black;
+}
+
+#results>img {
+    height: 500px;
+    width: 500px;
+    border-radius: 12px;
+}
+
+.result-div {
+    background-color: white;
+    width:500px;
+    margin-bottom: 30px;
+    margin-top: -15px;
+    border-radius: 12px;
+    padding: 12px;
+    padding-top: 25px;
+    font-size: 12px;
+}
+.result-div > p {
+    margin-top:10px;
+    margin-bottom: 10px;
+}
