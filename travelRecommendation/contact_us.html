@@ -26,8 +26,30 @@
             <img class="media" src="https://cdn-icons-png.freepik.com/512/1384/1384012.png?ga=GA1.1.671483268.1732803181" alt="YouTube"/>
         </div>
         <div class="contact-div">
-            <div> CONTACT US</div>
+            <div class="title"> CONTACT US</div>
+            <div class="description">
+                <p>
+                    At VentureVibes, we are always here to assist you with your travel needs. Whether you have questions about our services, need help planning your next adventure, or simply want to say hello, don’t hesitate to reach out. Our team is ready to provide you with the best travel experiences.
+                </p>
+                <p> Feel free to fill out the contact form and we’ll get back to you as soon as possible: </p>
+            
+            </div>
         </div>
+        <div class="contact-form">
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="text" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" rows="5" cols="50" required> </textarea>
+            <button type="submit" onclick="thankyou()">Submit</button>
+        </div> 
     </div>
+    <script>
+        function thankyou(){
+            alert('Thank you for contacting us!')
+        }
+    </script>
 </body>
 </html>

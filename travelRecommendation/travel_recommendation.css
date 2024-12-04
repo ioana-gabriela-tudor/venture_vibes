@@ -63,6 +63,7 @@ h1 {
 
 input[type="text"],
 input[type="number"],
+textarea,
 select {
     border-radius: 12px;
     border-color: white;
@@ -97,14 +98,28 @@ button:hover {
     margin-right: 30px;
 }
 
-.about-div>.title {
+.about-div,
+.contact-div>.title {
     font-size: 30px;
     font-weight: 900;
 }
 
-.about-div>.description {
+.about-div,
+.contact-div>.description {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.contact-div {
+    width: 35%;
+}
+
+.contact-form {
+    width: 60%;
+    color: white;
+    display: grid;
+    margin-right: 30px;
+    min-height: 300px;
 }
 
 .our-team {
@@ -127,7 +142,7 @@ button:hover {
 }
 
 .role {
-    margin-top:10px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
