@@ -52,7 +52,7 @@ body {
     align-items: center;
 }
 
-.company > p {
+.company>p {
     font-size: 20px;
     font-weight: 900;
 }
@@ -85,7 +85,9 @@ button:hover {
     background-color: #050505cb;
 }
 
-.motto-div, .about-div, .contact-div {
+.motto-div,
+.about-div,
+.contact-div {
     color: white;
     display: grid;
     align-items: center;
@@ -95,10 +97,44 @@ button:hover {
     margin-right: 30px;
 }
 
-.about-div > div {
-    font-size:30px;
+.about-div>.title {
+    font-size: 30px;
     font-weight: 900;
+}
+
+.about-div>.description {
+    margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.our-team {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.team {
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 50px;
+}
+
+.team-member {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    max-width: 200px;
+}
+
+.role {
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.profile {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -5px;
 }
 
 .main {

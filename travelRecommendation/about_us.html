@@ -26,28 +26,74 @@
             <img class="media" src="https://cdn-icons-png.freepik.com/512/1384/1384012.png?ga=GA1.1.671483268.1732803181" alt="YouTube"/>
         </div>
         <div class="about-div">
-            <div> ABOUT US</div>
-
-            <p>
-                At VentureVibes, we believe that travel is more than just a destination—it's an <b>experience</b>, a <b>feeling</b>, and a <b>vibe</b>. We're passionate about curating unique journeys that inspire adventure, foster discovery, and create memories that last a lifetime. 
-            </p>
-            <p>    
-                Whether you're seeking the thrill of exploring uncharted paths, the tranquility of a remote retreat, or the excitement of vibrant city life, <b>we specialize in crafting personalized travel experiences</b> that resonate with your spirit. 
-            </p>
-            <p>   
-                From the moment you embark on your trip, our goal is to make every step of your journey unforgettable—filled with new perspectives, exciting connections, and the kind of moments that stay with you long after you return home. With VentureVibes, it’s not just about where you go, but how you feel along the way.
-            </p>
-            <p>
-                Ready to take your travel experience to the next level? Let us help you find your perfect vibe!
-            </p>
-
-            <div> 
-                Our
+            <div class="title"> ABOUT US</div>
+            <div class="description">
+                <p>
+                    At VentureVibes, we believe that travel is more than just a destination—it's an <b>experience</b>, a <b>feeling</b>, and a <b>vibe</b>. We're passionate about curating unique journeys that inspire adventure, foster discovery, and create memories that last a lifetime. 
+                </p>
+                <p>    
+                    Whether you're seeking the thrill of exploring uncharted paths, the tranquility of a remote retreat, or the excitement of vibrant city life, <b>we specialize in crafting personalized travel experiences</b> that resonate with your spirit. 
+                </p>
+                <p>   
+                    From the moment you embark on your trip, our goal is to make every step of your journey unforgettable—filled with new perspectives, exciting connections, and the kind of moments that stay with you long after you return home. With VentureVibes, it’s not just about where you go, but how you feel along the way.
+                </p>
+                <p>
+                    Ready to take your travel experience to the next level? Let us help you find your perfect vibe!
+                </p>
             </div>
+
+            <div class="our-team">
+                <div>
+                    <div class="team"> 
+                        Our
+                    </div>
+                    <div  class="team">
+                        Team
+                    </div>
+                </div>
+                <div>
+                    <div class="team-member"> 
+                        <div>
+                            <p> 
+                                <img class="profile" src="https://cdn-icons-png.freepik.com/512/12832/12832930.png?ga=GA1.1.671483268.1732803181" />
+                                <b> Maria Anderson </b> 
+                            </p>
+                            <p class="role"> Maria Anderson is the visionary leader of VentureVibes. </p>
+                            <button id='ceoBtn'>CEO</button>
+                        </div>
+                    </div>
+                    <div class="team-member"> 
+                        <div>
+                            <p> 
+                                <img class="profile" src="https://cdn-icons-png.freepik.com/512/12832/12832898.png?ga=GA1.1.671483268.1732803181" />
+                                <b> James Patel </b> 
+                            </p>
+                            <p class="role"> James leads our dynamic team of travel consultants and customer service specialists. </p>
+                            <button id='leadBtn'>Team Lead</button>
+                        </div>
+                    </div>
+                    <div class="team-member"> 
+                        <div>
+                            <p> 
+                                <img class="profile" src="https://cdn-icons-png.freepik.com/512/13329/13329997.png?ga=GA1.1.671483268.1732803181" />
+                                <b> Priya Desai </b> 
+                            </p>
+                            <p class="role"> Priya is the Delivery Head at VentureVibes, overseeing the operational aspects of travel bookings and services.  </p>
+                            <button id='deliveryBtn'>Delivery Head</button>
+                        </div>
+                    </div>
+                </div>
             <div>
-                Team
-            </div>
         </div>
     </div>
+    <script>
+        const ceoButton = document.getElementById("ceoBtn");
+        const leadButton = document.getElementById("leadBtn");
+        const deliveryButton = document.getElementById("deliveryBtn");
+    
+        ceoButton.addEventListener("click", () => alert("Maria Anderson is the visionary leader of VentureVibes. With over 15 years of experience in the travel industry, she has helped shape the agency into a trusted name for both leisure and business travel. Her strategic approach ensures a seamless travel experience for all clients, from bespoke itineraries to exclusive destination packages."));
+        leadButton.addEventListener("click", () => alert("James leads our dynamic team of travel consultants and customer service specialists. With a deep passion for world exploration and a background in hospitality, James excels in building strong client relationships and ensuring smooth communication between the agency and our customers. He is committed to delivering personalized, exceptional travel experiences."));
+        deliveryButton.addEventListener("click", () => alert("Priya is the Delivery Head at VentureVibes, overseeing the operational aspects of travel bookings and services. With a strong background in logistics and supply chain management, Priya ensures that each trip is executed flawlessly, from the moment a booking is made to the final return home. Her attention to detail guarantees that all travel arrangements meet the highest standards."));
+    </script>
 </body>
 </html>
