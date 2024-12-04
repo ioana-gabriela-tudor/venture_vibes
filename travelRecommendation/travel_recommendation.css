@@ -214,13 +214,12 @@ button:hover {
 #results {
     height: 500px;
     width: 100%;
-    /* overflow-y: scroll;
-    overflow-x: hidden; */
+    margin-left: 150px;
     color: black;
 }
 
 #results>img {
-    height: 500px;
+    height: 400px;
     width: 500px;
     border-radius: 12px;
 }
